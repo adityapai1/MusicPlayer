@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleup.css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="grooverLogo.png" />
+    <title>Groove-Up</title>
+</head>
+
+<body>
+    <img src="grooverLogo.png" alt="logo" id="logoimg">
+
+
+    <div class="wrapper">
+        <div class="wrapper-signin">
+            <h2>Sign Up</h2>
+
+
+            <table align="center" style="width:70%">
+                <tr>
+                    <td><a href="https://github.com/" target="_blank">
+                            <img src="github.png" id="github" />
+                        </a></td>
+                    <td><a href="https://google.com/" target="_blank">
+                            <img src="google.png" id="google" />
+                        </a></td>
+                    <td><a href="https://facebook.com/" target="_blank">
+                            <img src="facebook.png" id="facebook" />
+                        </a></td>
+                </tr>
+            </table>
+
+
+
+            <h6>Or Sign-Up using E-mail Address</h6>
+            <form action="/index.html" id="sign-up-form">
+                <div id="fridge">
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <h3>Email</h3>
+                            </td>
+                            <td><input type="email" id="email" placeholder="E-Mail" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Password</h3>
+                            </td>
+                            <td> <input id="pwd1" type="password" placeholder="Enter Password" required /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Confirm</h3>
+                            </td>
+                            <td><input type="password" id="pwd2" placeholder="Re-Enter Password" required /></td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <h6 id="space"><a id="Forgot" href="link.html">Forgot Password?</a></h6>
+
+                <div class="checkbox-container">
+                    <input id="ticker" type="checkbox" />
+                    <label for="ticker">
+                        I agree to all the Terms and Conditions.
+                    </label>
+                </div>
+                <h6>We Know You Haven't Read Our Privacy Policy :)</h6>
+                <input type="submit" value="Sign-Up" id="in"></input>
+            </form>
+
+            <h3>
+                <!-- <a href="/index.html"><button id="in" onclick="validateForm()">Sign-Up</button></a> -->
+            </h3>
+        </div>
+    </div>
+</body>
+<script src="up.js"></script>
+</html>
